@@ -1,4 +1,5 @@
 require "low_carb/cli/version"
+require_relative './low_carb-cli'
 
 module LowCarb
   module Cli
