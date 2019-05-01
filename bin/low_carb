@@ -1,2 +1,6 @@
 #!/usr/bin/env ruby
-# require './lib/low_carb'
+require 'bundler/setup'
+require 'low_carb'
+
+
+LowCarb::CLI.new.start
