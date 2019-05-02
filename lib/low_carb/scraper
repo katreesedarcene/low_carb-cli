@@ -1,0 +1,11 @@
+class Scraper
+
+    LowCarb_URL = "https://www.ibreatheimhungry.com/"
+
+    def self.scrape_ibreatheimhungry
+        doc = Nokogiri::HTML(open(LowCarb_URL))
+
+    end
+
+
+end
